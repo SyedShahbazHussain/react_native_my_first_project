@@ -1,22 +1,13 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, {Component} from 'react';
+import { Platfrom, StyleSheet, Text, View } from 'react-native';
 
-export default class App extends React.Component {
+import Tabs from './src'
+
+export default class App extends Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up the My App.js to start 
-        working on your new app!!</Text>
-      </View>
-    );
+    return  
+    <Tabs/>
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+ 
